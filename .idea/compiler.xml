@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-activiti" />
+        <module name="demo-es" />
         <module name="demo-mongo" />
         <module name="demo-redis" />
         <module name="demo-sharding-jdbc" />
@@ -16,5 +17,8 @@
         <module name="redis-distributed-lock2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-es2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -23,6 +23,8 @@
         <module>redis-distributed-lock2</module>
         <module>redis-distributed-lock-recursion</module>
         <module>demo-mongo</module>
+        <module>demo-es</module>
+        <module>demo-es2</module>
     </modules>
 
     <properties>
