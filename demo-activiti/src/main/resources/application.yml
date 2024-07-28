@@ -1,0 +1,12 @@
+spring:
+  activiti:
+    check-process-definitions: false
+    # 检测身份信息表是否存在
+    db-identity-used: false
+    database-schema-update: true
+    check-process-definitions: true
+    # 自动部署验证设置:true-开启（默认）、false-关闭
+    process-definition-location-prefix: classpath:/processes/ *.bpmn
+    #保存历史数据级别设置为full最高级别，便于历史数据的追溯
+    history-level: full
+    db-history-used:true
