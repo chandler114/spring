@@ -25,6 +25,9 @@
         <module>demo-mongo</module>
         <module>demo-es</module>
         <module>demo-es2</module>
+        <module>demo-es2</module>
+        <module>demo-es-3</module>
+        <module>sharding-jdbc-demo</module>
     </modules>
 
     <properties>

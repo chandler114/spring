@@ -131,8 +131,8 @@ public class ESTest_Doc_Query {
 //        SearchSourceBuilder builder = new SearchSourceBuilder();
 //        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
 //
-//        //boolQueryBuilder.must(QueryBuilders.matchQuery("age", 30));
-//        //boolQueryBuilder.must(QueryBuilders.matchQuery("sex", "男"));
+////        boolQueryBuilder.must(QueryBuilders.matchQuery("age", 30));
+////        boolQueryBuilder.must(QueryBuilders.matchQuery("sex", "男"));
 //        //boolQueryBuilder.mustNot(QueryBuilders.matchQuery("sex", "男"));
 //        boolQueryBuilder.should(QueryBuilders.matchQuery("age", 30));
 //        boolQueryBuilder.should(QueryBuilders.matchQuery("age", 40));
@@ -214,6 +214,7 @@ public class ESTest_Doc_Query {
 //
 //        SearchHits hits = response.getHits();
 //
+//        System.out.println(response);
 //        System.out.println(hits.getTotalHits());
 //        System.out.println(response.getTook());
 //
@@ -235,6 +236,7 @@ public class ESTest_Doc_Query {
 //
 //        SearchHits hits = response.getHits();
 //
+//        System.out.println(response);
 //        System.out.println(hits.getTotalHits());
 //        System.out.println(response.getTook());
 //
@@ -256,6 +258,7 @@ public class ESTest_Doc_Query {
 
         SearchHits hits = response.getHits();
 
+        System.out.println(response);
         System.out.println(hits.getTotalHits());
         System.out.println(response.getTook());
 
